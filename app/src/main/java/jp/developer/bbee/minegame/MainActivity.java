@@ -30,8 +30,8 @@ import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    final int X_MAX = 12;
-    final int Y_MAX = 6;
+    final int X_MAX = 10;
+    final int Y_MAX = 5;
     final int Z_MAX = 3;
     final int Z_MAX_OF_MAX = 3;
     //    final int BOMB_NUM = 10;
