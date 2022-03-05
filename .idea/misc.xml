@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2745" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2745" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/activity_ranking.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/custom_spinner.xml" value="0.30570652173913043" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/fragment_ranking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/fragment_screen_slide_page.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/item_sample.xml" value="0.22" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/rank_item.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/spinner_dropdown.xml" value="0.30570652173913043" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/layout/spinner_layout.xml" value="0.30570652173913043" />
+        <entry key="..\:/Users/Junkers/AndroidStudioProjects/MineGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2745" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
