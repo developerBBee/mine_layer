@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private long startTime;
 
     Context mContext;
+    View decorView;
 
     LinearLayout area;
     ImageView[][][] imgBox;
@@ -96,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
 
         mContext = MainActivity.this;
 
-        View decorView = getWindow().getDecorView();
-        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
+        decorView = getWindow().getDecorView();
+        hideSystemUi();
 
         ranking = findViewById(R.id.ivRanking);
         ranking.setOnClickListener(new View.OnClickListener() {
@@ -341,6 +342,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        //if (hasFocus) hideSystemUi();
+    }
+
+    private void hideSystemUi() {
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                | View.SYSTEM_UI_FLAG_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
     }
 
     public int dpToPx(int dp) {
